@@ -3,17 +3,17 @@ import java.util.Scanner;
 
 // This was the first assignment for group 2
 void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     IO.println("Please input the first number");
-    int firstNumber = scanner.nextInt();
+    int firstNumber = input.nextInt();
 
     IO.println("Please enter the second numbeer");
-    int secondNumber = scanner.nextInt();
+    int secondNumber = input.nextInt();
 
     int result = firstNumber + secondNumber;
 
     IO.println("The answer is: " + result);
 
-    scanner.close();
+    input.close();
 }
