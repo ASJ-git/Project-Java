@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import static java.lang.IO.print;
 import static java.lang.IO.println;
 
 void main(String[] args) {
