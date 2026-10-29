@@ -1,7 +1,19 @@
+import java.util.Scanner;
+import static java.lang.IO.println;
+
 public class normalGcd {
+
     public static void main(String[] args) {
-       int result = gcd(4, 6);
-       IO.println(result);
+        Scanner input = new Scanner(System.in);
+
+        println("Enter the two numbers");
+        int a = input.nextInt();
+        int b = input.nextInt();
+
+        int result = gcd(a, b);
+        println("The gcd of " + a + " and " + b + " is: " + result);
+
+        input.close();
     }
 
     public static int gcd(int a, int b) {
